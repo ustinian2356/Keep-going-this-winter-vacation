@@ -35,7 +35,7 @@ void FastRank(int left, int right, int* nums)
 int main()
 {
 	int nums[NUMSIZE];
-	cout << "ÅÅÐòÇ°:";
+	cout << "æŽ’åºå‰:";
 	for (int i = 0;i < NUMSIZE;i++)
 	{
 		nums[i] = rand() % 100;
@@ -43,7 +43,7 @@ int main()
 	}
 	cout << endl;
 	FastRank(0, NUMSIZE - 1, nums);
-	cout << "ÅÅÐòºó:";
+	cout << "æŽ’åºåŽ:";
 	for (int i = 0;i < NUMSIZE;i++)
 	{
 		cout << nums[i] << " ";
